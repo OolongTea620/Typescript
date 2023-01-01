@@ -1,0 +1,26 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "TypeScript nest js 학습용",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OolongTea620/Typescript.git"
+  },
+  "author": "hyelin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OolongTea620/Typescript/issues"
+  },
+  "homepage": "https://github.com/OolongTea620/Typescript#readme",
+  "dependencies": {
+    "@nestjs/common": "^7.6.17",
+    "@nestjs/core": "^7.6.17",
+    "@nestjs/platform-express": "^7.6.17",
+    "reflect-metadata": "^0.1.13",
+    "typescript": "^4.3.2"
+  }
+}
