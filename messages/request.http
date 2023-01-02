@@ -11,5 +11,5 @@ Content-type:application/json
 }
 
 ### Create a new message
-GET http://localhost:3000/messages/123123123
+GET http://localhost:3000/messages/123123
 Content-type:application/json

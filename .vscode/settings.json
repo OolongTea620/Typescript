@@ -9,5 +9,7 @@
         "scminput": true,
         "git-commit": true,
         "javascript" : true,
-    }
+    },
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.formatOnSave": true
 }
