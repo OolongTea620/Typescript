@@ -1,5 +1,5 @@
 import { Body, Controller, Get, Param, Post } from '@nestjs/common';
-
+import { CreateMessgeDto } from './dtos/create-message.dto';
 @Controller('messages')
 export class MessagesController {
     @Get()
@@ -7,7 +7,7 @@ export class MessagesController {
 
     }
     @Post()
-    createMessages (@Body() body:any) { // request body를 추출해서 body라는 변수에 저장
+    createMessages (@Body() body:CreateMessgeDto) { // request body를 추출해서 body라는 변수에 저장
         console.log(body);
     }
     @Get("/:id")

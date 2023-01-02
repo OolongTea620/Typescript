@@ -106,3 +106,15 @@ export class 설명2Controller {
 }
 ```
 ### 2.Controller + route 설정
+
+### 3. Validator Pipe 자동 설정
+#### 1. Tell Nest to user global validation
+
+#### 2. Create a class that describes the different properties that the request body should have Data transfer object DTO
+npm class-validator class-transformer 설치
+
+```
+npm install class-validator class-transformer
+```
+#### 3. Add validation rules to the class
+#### 4. Apply that classes to the request handler
